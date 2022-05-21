@@ -1,4 +1,4 @@
-# react-vite-mpa-example
+# vite-react-mpa-example
 
 This is an example of multi page application using `React` and `Vite`, which includes router usage and packaging configurations.
 
@@ -25,6 +25,37 @@ build to dist
 ```sh
 yarn run build
 ```
+
+The generated directory is as follows
+
+```sh
+  ~/react/vite-react-mpa-example/dist     main  
+   tree                                                                                                                                                   
+.
+├── admin
+│   └── index.html
+├── assets
+│   ├── admin.26a797b8.css
+│   ├── admin.f723a3c2.js
+│   ├── favicon.17e50649.svg
+│   ├── index.458f9883.css
+│   ├── index.6bb9e804.js
+│   ├── index.bff09771.js
+│   ├── index.ed209ab7.css
+│   ├── logo.ecc203fb.svg
+│   └── vendor.763bc56e.js
+└── index.html
+
+2 directories, 11 files
+```
+
+I have the project deployed on [vercel](), which you can try to access
+
+- https://vite-react-mpa.vercel.app/
+- https://vite-react-mpa.vercel.app/expenses
+- https://vite-react-mpa.vercel.app/invoices
+- https://vite-react-mpa.vercel.app/admin/expenses
+- https://vite-react-mpa.vercel.app/admin/invoices
 
 ## Further Info
 
