@@ -29,8 +29,7 @@ yarn run build
 The generated directory is as follows
 
 ```sh
-  ~/react/vite-react-mpa-example/dist     main  
-   tree                                                                                                                                                   
+ ~/react/vite-react-mpa-example/dist
 .
 ├── admin
 │   └── index.html
