@@ -1,6 +1,6 @@
 # react-vite-mpa-example
 
-This is an example of a multi-page project using React and Vite, which includes router usage and packaging configurations.
+This is an example of multi page application using `React` and `Vite`, which includes router usage and packaging configurations.
 
 ## Usage
 
@@ -9,6 +9,16 @@ local env preview
 ```sh
 yarn run dev
 ```
+
+You can access the following path verify:
+
+- http://localhost:3000/
+- http://localhost:3000/expenses
+- http://localhost:3000/invoices
+- http://localhost:3000/admin/expenses
+- http://localhost:3000/admin/invoices
+
+---
 
 build to dist
 
