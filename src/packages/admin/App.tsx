@@ -2,13 +2,13 @@ import { useState } from 'react'
 import { Link } from "react-router-dom";
 
 import logo from '/src/logo.svg'
-import '/src/App.css'
+import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div className="AdminApp">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React By Admin!</p>
@@ -19,10 +19,8 @@ function App() {
         </p>
 
         <div>
-          <h1>Bookkeeper</h1>
           <nav
               style={{
-                borderBottom: "solid 1px",
                 paddingBottom: "1rem",
               }}
           >
