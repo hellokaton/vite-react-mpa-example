@@ -49,7 +49,7 @@ The generated directory is as follows
 2 directories, 11 files
 ```
 
-I have the project deployed on [vercel](), which you can try to access
+I have the project deployed on [vercel](https://vercel.com/), which you can try to access
 
 - https://vite-react-mpa.vercel.app/
 - https://vite-react-mpa.vercel.app/expenses
